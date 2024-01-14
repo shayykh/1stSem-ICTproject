@@ -1,0 +1,358 @@
+
+.navbar{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.582);
+    width: 100%;
+    height: 70px;
+    box-shadow: 0px 1px rgb(0, 0, 0, 0.2);
+    position: fixed;
+    margin-top: 0%;
+    scroll-behavior: smooth;
+}
+.navbtn1{
+    margin-left: 300px;
+    color: black;
+    text-decoration-line: none;
+    margin-top:20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.navbtn{
+    margin-left: 20px;
+    color: black;
+    text-decoration-line: none;
+    margin-top:20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.search{
+    width: 200px;
+    height: 40px;
+    margin-left:250px;
+    border-radius: 100px;
+    border:1px solid gray;
+    padding-left: 20px;
+    margin-top: 10px;
+
+}
+.search:focus{
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: 600;
+}
+.personlogo{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.navbtn:hover{
+ font-size: larger;
+}
+.navbtn1:hover{
+    font-size: larger;
+}
+.centerimg{
+    object-fit: cover;
+    width:100%;
+    margin-top: 70px;
+}
+.shoe{
+    text-align: center;
+}
+.shoeimg{
+    width: 100px;
+    height: 100px;
+}
+.heading1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ibtn{
+    background-color:white;
+    color: black;
+    border:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left:20px;
+}
+.ibtn1{
+    background-color:white;
+    color: black;
+    border:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius:20px;
+}
+.ibtn:focus{
+    background-color:black;
+    color:white;
+    width: 80px;
+    height: 40px;
+    border-radius:20px;
+}
+.ibtn1:focus{
+    background-color:black;
+    color:white;
+    width: 120px;
+    height: 40px;
+    border-radius:20px;
+}
+.con{
+    display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.card{
+    box-shadow: 2px 2px rgb(0, 0, 0, 0.2);
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+   
+}
+.card:hover{
+    box-shadow: 1px 1px 2px 2px rgb(0, 0, 0, 0.2);
+}
+.card-img-top{
+    object-fit:contain;
+    width: 280px;
+    height: 250px;
+}
+.card-title{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.vbtn{
+    border:2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    font-weight: 600;
+    border-radius: 50px;
+    margin-left: 630px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.vbtn:hover{
+    background-color: black;
+    color: white;
+}
+.card-body{
+    text-align: center;
+}
+.cardbtn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    background-color:black;
+    color: white;
+    width: 120px;
+    height: 50px;
+    font-weight: 600;
+    border-radius:30px; 
+    text-decoration-line: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.cardbtn:hover{
+    border: 3px solid black;
+    background-color: white;
+    color:black;
+}
+.most-selling{
+    width:100%;
+    object-fit: cover;
+    margin-top: 20px;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .bottom-left {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+  }
+  .bottom2 {
+    position: absolute;
+    top: 300px;
+    left: 50px;
+  }
+  .most-btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+  }
+  .most-btn:hover{
+    background-color: white;
+    color:black;
+  }
+  
+  .top-left {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+  }
+  .most-selling-hd{
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  .para{
+    text-align: justify;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .grid1 {
+    position: absolute;
+    top: 50px;
+    left: 800px;
+    border: 2px solid black;
+  }
+  .grid2 {
+    position: absolute;
+    top: 0px;
+    left:210px;
+  }
+  .newarrival{
+    width:90%;
+   margin-left: 65px;
+   margin-top: 20px;
+  }
+.footer-banner{
+    width: 100%;
+    margin-top: 20px;
+}
+.Grid69{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.featurd-poducts{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* footer */
+.need-help{
+    display: flex;
+    background-color: #fca120;
+    text-align: center;
+    padding: 10px 20px 10px 400px;
+    margin-top: 20px;
+}
+.background-img{
+    position: relative;
+}
+.background-img2{
+    width: 100%;
+    margin-top: 50px;
+    position: relative;
+}
+.abt-us-card-container{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    border: rgb(0, 0, 0);
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    /* right: 70px; */
+    left: 15%
+}
+.abt-us-card img{
+    margin: 5px 30px 20px 5px;
+    padding: 30px 20px 50px 10px;
+    height: 100px;
+    width: 100px;
+}
+.abt-us-card{
+    border: black;;
+    background-color: white;
+    display: flex;
+}
+.abt-us-txt{
+    margin: 10px 10px 10x 30px;
+    color: darkslategrey;
+}
+.email-btn{
+    background-color:black ;
+    color: aliceblue;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 4px solid black;
+}
+.whatsapp-btn{
+    background-color:black;
+    text-decoration: none;
+    color:white;
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 60px;
+    width: 200px;
+    cursor: pointer;
+    border-radius: 20px;
+    
+}
+.whatsapp-btn:hover{
+    opacity: 0.7;
+    
+}
+.footer-txt-1{
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    /* right: 50%; */
+}
+.footer-txt-1 a{
+    text-decoration: none;
+    color: white;
+
+}
+.footer-txt-2{
+    position: absolute;
+    top: 70%;
+    left: 35%;
+
+}
+.footer-txt-2 a{
+    text-decoration: none;
+    color: white ;
+}
+.footer-txt-3{
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    ;
+}
+.footer-txt-3 a{
+    text-decoration: none;
+    color:  white;
+    /* gap: 10px; */
+}
+.footer-txt-4{
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+.footer-txt-4 a{
+    text-decoration: none;
+    color:  white;
+    font-size: 20px;
+    font-weight: 20px;
+}
+  
+
+    
+
